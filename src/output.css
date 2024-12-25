@@ -677,6 +677,10 @@ video {
   width: 190px;
 }
 
+.w-\[200px\] {
+  width: 200px;
+}
+
 .w-\[229px\] {
   width: 229px;
 }
@@ -805,6 +809,10 @@ video {
   font-size: 20px;
 }
 
+.text-\[30px\] {
+  font-size: 30px;
+}
+
 .text-\[36px\] {
   font-size: 36px;
 }
@@ -915,6 +923,18 @@ video {
 
   .lg\:w-\[40\%\] {
     width: 40%;
+  }
+
+  .lg\:w-\[50\%\] {
+    width: 50%;
+  }
+
+  .lg\:w-\[55\%\] {
+    width: 55%;
+  }
+
+  .lg\:w-\[600px\] {
+    width: 600px;
   }
 
   .lg\:flex-row {
