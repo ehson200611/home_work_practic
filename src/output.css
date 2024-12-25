@@ -608,6 +608,14 @@ video {
   position: relative;
 }
 
+.left-\[30px\] {
+  left: 30px;
+}
+
+.top-\[100px\] {
+  top: 100px;
+}
+
 .m-auto {
   margin: auto;
 }
@@ -617,20 +625,12 @@ video {
   margin-bottom: 30px;
 }
 
-.mb-\[\] {
-  margin-bottom: ;
-}
-
-.mb-\[-10px\] {
-  margin-bottom: -10px;
-}
-
-.mb-\[-200px\] {
-  margin-bottom: -200px;
-}
-
 .mb-\[-20px\] {
   margin-bottom: -20px;
+}
+
+.mt-\[30px\] {
+  margin-top: 30px;
 }
 
 .flex {
@@ -653,6 +653,10 @@ video {
   height: 161px;
 }
 
+.h-\[169px\] {
+  height: 169px;
+}
+
 .h-\[277px\] {
   height: 277px;
 }
@@ -669,8 +673,12 @@ video {
   width: 139px;
 }
 
-.w-\[170px\] {
-  width: 170px;
+.w-\[190px\] {
+  width: 190px;
+}
+
+.w-\[229px\] {
+  width: 229px;
 }
 
 .w-\[88px\] {
@@ -731,20 +739,12 @@ video {
   gap: 30px;
 }
 
-.gap-\[\] {
-  gap: ;
-}
-
-.gap-\[30p\] {
-  gap: 30p;
-}
-
 .rounded-\[10px\] {
   border-radius: 10px;
 }
 
-.rounded-\[30px\] {
-  border-radius: 30px;
+.rounded-\[20px\] {
+  border-radius: 20px;
 }
 
 .border {
@@ -787,10 +787,6 @@ video {
 .py-\[30px\] {
   padding-top: 30px;
   padding-bottom: 30px;
-}
-
-.pb-\[-20px\] {
-  padding-bottom: -20px;
 }
 
 .pl-\[20px\] {
@@ -853,6 +849,10 @@ video {
     width: 100%;
   }
 
+  .sm\:w-\[180px\] {
+    width: 180px;
+  }
+
   .sm\:bg-slate-500 {
     --tw-bg-opacity: 1;
     background-color: rgb(100 116 139 / var(--tw-bg-opacity, 1));
@@ -869,12 +869,20 @@ video {
     bottom: 30px;
   }
 
+  .lg\:left-\[150px\] {
+    left: 150px;
+  }
+
   .lg\:left-\[900px\] {
     left: 900px;
   }
 
   .lg\:right-\[170px\] {
     right: 170px;
+  }
+
+  .lg\:top-\[200px\] {
+    top: 200px;
   }
 
   .lg\:top-\[320px\] {
@@ -893,8 +901,16 @@ video {
     display: none;
   }
 
+  .lg\:h-\[300px\] {
+    height: 300px;
+  }
+
   .lg\:w-\[360px\] {
     width: 360px;
+  }
+
+  .lg\:w-\[379px\] {
+    width: 379px;
   }
 
   .lg\:w-\[40\%\] {
@@ -905,12 +921,12 @@ video {
     flex-direction: row;
   }
 
-  .lg\:gap-0 {
-    gap: 0px;
+  .lg\:items-stretch {
+    align-items: stretch;
   }
 
-  .lg\:gap-\[100px\] {
-    gap: 100px;
+  .lg\:gap-0 {
+    gap: 0px;
   }
 
   .lg\:gap-\[60px\] {
